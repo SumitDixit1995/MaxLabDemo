@@ -45,7 +45,7 @@ Build and Run: Finally, build and run the project by clicking the play button in
 
  3. Image wiht url : I was unable to use "AsyncImage" due to ios compatibility so i have to add one dependancy "URLImage" to fix this issue.
 
-# NOTE: Due to lack of time i was writen some test cases.
+### NOTE: Due to lack of time i was writen some test cases.
 
  Thanks
  Sumit Dixit

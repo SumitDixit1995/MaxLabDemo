@@ -1,0 +1,697 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C113685C2B7290DC00516A45 /* MaxLabDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C113685B2B7290DC00516A45 /* MaxLabDemoApp.swift */; };
+		C113685E2B7290DC00516A45 /* HealthTopicsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C113685D2B7290DC00516A45 /* HealthTopicsView.swift */; };
+		C11368602B7290E900516A45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C113685F2B7290E900516A45 /* Assets.xcassets */; };
+		C11368632B7290E900516A45 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C11368622B7290E900516A45 /* Preview Assets.xcassets */; };
+		C113686C2B72969600516A45 /* TopicDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C113686B2B72969600516A45 /* TopicDetailView.swift */; };
+		C11368712B729AE500516A45 /* APIRequestUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11368702B729AE500516A45 /* APIRequestUtility.swift */; };
+		C11368742B729C9E00516A45 /* ApiError.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11368732B729C9E00516A45 /* ApiError.swift */; };
+		C11368762B729CB300516A45 /* NetworkReachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11368752B729CB300516A45 /* NetworkReachability.swift */; };
+		C11368792B72A46000516A45 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11368782B72A46000516A45 /* Alert.swift */; };
+		C113687C2B73259500516A45 /* HealthTopicsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C113687B2B73259500516A45 /* HealthTopicsViewModel.swift */; };
+		C11368802B73266A00516A45 /* HealthTopicsProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C113687F2B73266A00516A45 /* HealthTopicsProtocol.swift */; };
+		C11368822B7327D100516A45 /* HealthTopicsApiProtocal.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11368812B7327D100516A45 /* HealthTopicsApiProtocal.swift */; };
+		C11368852B73283B00516A45 /* ApiServiceable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11368842B73283B00516A45 /* ApiServiceable.swift */; };
+		C11368882B73348300516A45 /* ApiServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11368872B73348300516A45 /* ApiServices.swift */; };
+		C113688B2B733E3B00516A45 /* HealthTopics.swift in Sources */ = {isa = PBXBuildFile; fileRef = C113688A2B733E3B00516A45 /* HealthTopics.swift */; };
+		C113688D2B73505B00516A45 /* LoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C113688C2B73505B00516A45 /* LoaderView.swift */; };
+		C11368962B73713300516A45 /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11368952B73713300516A45 /* View+Extension.swift */; };
+		C11368A12B73A05B00516A45 /* MaxLabDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11368A02B73A05B00516A45 /* MaxLabDemoTests.swift */; };
+		C11368A82B73A08F00516A45 /* HealthTopicsViewTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11368A72B73A08F00516A45 /* HealthTopicsViewTest.swift */; };
+		C11368AB2B73A28100516A45 /* response.json in Resources */ = {isa = PBXBuildFile; fileRef = C11368AA2B73A28100516A45 /* response.json */; };
+		C11368AD2B73A41A00516A45 /* HealthTopicsApiManagerMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11368AC2B73A41A00516A45 /* HealthTopicsApiManagerMock.swift */; };
+		C11368AF2B73A54B00516A45 /* ApiServicesMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11368AE2B73A54B00516A45 /* ApiServicesMock.swift */; };
+		C11368B12B73A89500516A45 /* MockHealthTopicsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11368B02B73A89500516A45 /* MockHealthTopicsViewModel.swift */; };
+		E0BF23E4F709A6DF6F4ADBD0 /* Pods_MaxLabDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BCF8FF088A3C90DCAE79419 /* Pods_MaxLabDemo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C11368A22B73A05B00516A45 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C11368502B7290DC00516A45 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C11368572B7290DC00516A45;
+			remoteInfo = MaxLabDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		48C1ADFB47712D29C607E5F0 /* Pods-MaxLabDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MaxLabDemo.debug.xcconfig"; path = "Target Support Files/Pods-MaxLabDemo/Pods-MaxLabDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		4BCF8FF088A3C90DCAE79419 /* Pods_MaxLabDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MaxLabDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C11368582B7290DC00516A45 /* MaxLabDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MaxLabDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C113685B2B7290DC00516A45 /* MaxLabDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxLabDemoApp.swift; sourceTree = "<group>"; };
+		C113685D2B7290DC00516A45 /* HealthTopicsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthTopicsView.swift; sourceTree = "<group>"; };
+		C113685F2B7290E900516A45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C11368622B7290E900516A45 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C113686B2B72969600516A45 /* TopicDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicDetailView.swift; sourceTree = "<group>"; };
+		C11368702B729AE500516A45 /* APIRequestUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRequestUtility.swift; sourceTree = "<group>"; };
+		C11368732B729C9E00516A45 /* ApiError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiError.swift; sourceTree = "<group>"; };
+		C11368752B729CB300516A45 /* NetworkReachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkReachability.swift; sourceTree = "<group>"; };
+		C11368782B72A46000516A45 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		C113687B2B73259500516A45 /* HealthTopicsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthTopicsViewModel.swift; sourceTree = "<group>"; };
+		C113687F2B73266A00516A45 /* HealthTopicsProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthTopicsProtocol.swift; sourceTree = "<group>"; };
+		C11368812B7327D100516A45 /* HealthTopicsApiProtocal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthTopicsApiProtocal.swift; sourceTree = "<group>"; };
+		C11368842B73283B00516A45 /* ApiServiceable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiServiceable.swift; sourceTree = "<group>"; };
+		C11368872B73348300516A45 /* ApiServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiServices.swift; sourceTree = "<group>"; };
+		C113688A2B733E3B00516A45 /* HealthTopics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthTopics.swift; sourceTree = "<group>"; };
+		C113688C2B73505B00516A45 /* LoaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoaderView.swift; sourceTree = "<group>"; };
+		C11368952B73713300516A45 /* View+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
+		C113689E2B73A05B00516A45 /* MaxLabDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MaxLabDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C11368A02B73A05B00516A45 /* MaxLabDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxLabDemoTests.swift; sourceTree = "<group>"; };
+		C11368A72B73A08F00516A45 /* HealthTopicsViewTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthTopicsViewTest.swift; sourceTree = "<group>"; };
+		C11368AA2B73A28100516A45 /* response.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = response.json; path = ../../../../Downloads/response.json; sourceTree = "<group>"; };
+		C11368AC2B73A41A00516A45 /* HealthTopicsApiManagerMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthTopicsApiManagerMock.swift; sourceTree = "<group>"; };
+		C11368AE2B73A54B00516A45 /* ApiServicesMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiServicesMock.swift; sourceTree = "<group>"; };
+		C11368B02B73A89500516A45 /* MockHealthTopicsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockHealthTopicsViewModel.swift; sourceTree = "<group>"; };
+		EABA62754CDE72588EAD8C5F /* Pods-MaxLabDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MaxLabDemo.release.xcconfig"; path = "Target Support Files/Pods-MaxLabDemo/Pods-MaxLabDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C11368552B7290DC00516A45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0BF23E4F709A6DF6F4ADBD0 /* Pods_MaxLabDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C113689B2B73A05B00516A45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6262F63028CBBAB53756E19D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				48C1ADFB47712D29C607E5F0 /* Pods-MaxLabDemo.debug.xcconfig */,
+				EABA62754CDE72588EAD8C5F /* Pods-MaxLabDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8CD0458A898BEA89018D9AF7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4BCF8FF088A3C90DCAE79419 /* Pods_MaxLabDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C113684F2B7290DC00516A45 = {
+			isa = PBXGroup;
+			children = (
+				C113685A2B7290DC00516A45 /* MaxLabDemo */,
+				C11368592B7290DC00516A45 /* Products */,
+				6262F63028CBBAB53756E19D /* Pods */,
+				8CD0458A898BEA89018D9AF7 /* Frameworks */,
+				C113689F2B73A05B00516A45 /* MaxLabDemoTests */,
+			);
+			sourceTree = "<group>";
+		};
+		C11368592B7290DC00516A45 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C11368582B7290DC00516A45 /* MaxLabDemo.app */,
+				C113689E2B73A05B00516A45 /* MaxLabDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C113685A2B7290DC00516A45 /* MaxLabDemo */ = {
+			isa = PBXGroup;
+			children = (
+				C113687D2B7325F900516A45 /* HealthTopics */,
+				C11368772B72A44E00516A45 /* Utilities */,
+				C113686F2B729A6600516A45 /* ApiServices */,
+				C113686E2B72974C00516A45 /* AppManager  */,
+				C113685F2B7290E900516A45 /* Assets.xcassets */,
+				C11368612B7290E900516A45 /* Preview Content */,
+			);
+			path = MaxLabDemo;
+			sourceTree = "<group>";
+		};
+		C11368612B7290E900516A45 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C11368622B7290E900516A45 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C113686D2B72973D00516A45 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C113685D2B7290DC00516A45 /* HealthTopicsView.swift */,
+				C113686B2B72969600516A45 /* TopicDetailView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C113686E2B72974C00516A45 /* AppManager  */ = {
+			isa = PBXGroup;
+			children = (
+				C113685B2B7290DC00516A45 /* MaxLabDemoApp.swift */,
+			);
+			path = "AppManager ";
+			sourceTree = "<group>";
+		};
+		C113686F2B729A6600516A45 /* ApiServices */ = {
+			isa = PBXGroup;
+			children = (
+				C11368832B73282D00516A45 /* Protocols */,
+				C11368722B729C8C00516A45 /* Utilities */,
+				C11368702B729AE500516A45 /* APIRequestUtility.swift */,
+				C11368872B73348300516A45 /* ApiServices.swift */,
+			);
+			path = ApiServices;
+			sourceTree = "<group>";
+		};
+		C11368722B729C8C00516A45 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				C11368732B729C9E00516A45 /* ApiError.swift */,
+				C11368752B729CB300516A45 /* NetworkReachability.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		C11368772B72A44E00516A45 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				C11368782B72A46000516A45 /* Alert.swift */,
+				C113688C2B73505B00516A45 /* LoaderView.swift */,
+				C11368952B73713300516A45 /* View+Extension.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		C113687A2B73256A00516A45 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C113687B2B73259500516A45 /* HealthTopicsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		C113687D2B7325F900516A45 /* HealthTopics */ = {
+			isa = PBXGroup;
+			children = (
+				C113686D2B72973D00516A45 /* View */,
+				C113687A2B73256A00516A45 /* ViewModel */,
+				C113687E2B73260B00516A45 /* Protocols */,
+				C11368892B733E2500516A45 /* Model */,
+			);
+			path = HealthTopics;
+			sourceTree = "<group>";
+		};
+		C113687E2B73260B00516A45 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				C113687F2B73266A00516A45 /* HealthTopicsProtocol.swift */,
+				C11368812B7327D100516A45 /* HealthTopicsApiProtocal.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		C11368832B73282D00516A45 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				C11368842B73283B00516A45 /* ApiServiceable.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		C11368892B733E2500516A45 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C113688A2B733E3B00516A45 /* HealthTopics.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C113689F2B73A05B00516A45 /* MaxLabDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				C11368A92B73A27100516A45 /* Mock */,
+				C11368A02B73A05B00516A45 /* MaxLabDemoTests.swift */,
+				C11368A72B73A08F00516A45 /* HealthTopicsViewTest.swift */,
+				C11368B02B73A89500516A45 /* MockHealthTopicsViewModel.swift */,
+			);
+			path = MaxLabDemoTests;
+			sourceTree = "<group>";
+		};
+		C11368A92B73A27100516A45 /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+				C11368AA2B73A28100516A45 /* response.json */,
+				C11368AC2B73A41A00516A45 /* HealthTopicsApiManagerMock.swift */,
+				C11368AE2B73A54B00516A45 /* ApiServicesMock.swift */,
+			);
+			path = Mock;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C11368572B7290DC00516A45 /* MaxLabDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C11368662B7290E900516A45 /* Build configuration list for PBXNativeTarget "MaxLabDemo" */;
+			buildPhases = (
+				CC57AA92136AE9EB6D56C1A8 /* [CP] Check Pods Manifest.lock */,
+				C11368542B7290DC00516A45 /* Sources */,
+				C11368552B7290DC00516A45 /* Frameworks */,
+				C11368562B7290DC00516A45 /* Resources */,
+				5F7114E35DBDDDD9D8C8DEC4 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MaxLabDemo;
+			productName = MaxLabDemo;
+			productReference = C11368582B7290DC00516A45 /* MaxLabDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C113689D2B73A05B00516A45 /* MaxLabDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C11368A42B73A05B00516A45 /* Build configuration list for PBXNativeTarget "MaxLabDemoTests" */;
+			buildPhases = (
+				C113689A2B73A05B00516A45 /* Sources */,
+				C113689B2B73A05B00516A45 /* Frameworks */,
+				C113689C2B73A05B00516A45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C11368A32B73A05B00516A45 /* PBXTargetDependency */,
+			);
+			name = MaxLabDemoTests;
+			productName = MaxLabDemoTests;
+			productReference = C113689E2B73A05B00516A45 /* MaxLabDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C11368502B7290DC00516A45 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					C11368572B7290DC00516A45 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					C113689D2B73A05B00516A45 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = C11368572B7290DC00516A45;
+					};
+				};
+			};
+			buildConfigurationList = C11368532B7290DC00516A45 /* Build configuration list for PBXProject "MaxLabDemo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C113684F2B7290DC00516A45;
+			productRefGroup = C11368592B7290DC00516A45 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C11368572B7290DC00516A45 /* MaxLabDemo */,
+				C113689D2B73A05B00516A45 /* MaxLabDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C11368562B7290DC00516A45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C11368632B7290E900516A45 /* Preview Assets.xcassets in Resources */,
+				C11368602B7290E900516A45 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C113689C2B73A05B00516A45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C11368AB2B73A28100516A45 /* response.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5F7114E35DBDDDD9D8C8DEC4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MaxLabDemo/Pods-MaxLabDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MaxLabDemo/Pods-MaxLabDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MaxLabDemo/Pods-MaxLabDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC57AA92136AE9EB6D56C1A8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MaxLabDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C11368542B7290DC00516A45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C11368822B7327D100516A45 /* HealthTopicsApiProtocal.swift in Sources */,
+				C11368802B73266A00516A45 /* HealthTopicsProtocol.swift in Sources */,
+				C113685E2B7290DC00516A45 /* HealthTopicsView.swift in Sources */,
+				C11368962B73713300516A45 /* View+Extension.swift in Sources */,
+				C113688D2B73505B00516A45 /* LoaderView.swift in Sources */,
+				C11368712B729AE500516A45 /* APIRequestUtility.swift in Sources */,
+				C113687C2B73259500516A45 /* HealthTopicsViewModel.swift in Sources */,
+				C113688B2B733E3B00516A45 /* HealthTopics.swift in Sources */,
+				C113686C2B72969600516A45 /* TopicDetailView.swift in Sources */,
+				C11368882B73348300516A45 /* ApiServices.swift in Sources */,
+				C11368852B73283B00516A45 /* ApiServiceable.swift in Sources */,
+				C11368742B729C9E00516A45 /* ApiError.swift in Sources */,
+				C113685C2B7290DC00516A45 /* MaxLabDemoApp.swift in Sources */,
+				C11368762B729CB300516A45 /* NetworkReachability.swift in Sources */,
+				C11368792B72A46000516A45 /* Alert.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C113689A2B73A05B00516A45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C11368AF2B73A54B00516A45 /* ApiServicesMock.swift in Sources */,
+				C11368B12B73A89500516A45 /* MockHealthTopicsViewModel.swift in Sources */,
+				C11368A82B73A08F00516A45 /* HealthTopicsViewTest.swift in Sources */,
+				C11368A12B73A05B00516A45 /* MaxLabDemoTests.swift in Sources */,
+				C11368AD2B73A41A00516A45 /* HealthTopicsApiManagerMock.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C11368A32B73A05B00516A45 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C11368572B7290DC00516A45 /* MaxLabDemo */;
+			targetProxy = C11368A22B73A05B00516A45 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C11368642B7290E900516A45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C11368652B7290E900516A45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C11368672B7290E900516A45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48C1ADFB47712D29C607E5F0 /* Pods-MaxLabDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MaxLabDemo/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Sumit.Demo.MaxLabDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C11368682B7290E900516A45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EABA62754CDE72588EAD8C5F /* Pods-MaxLabDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MaxLabDemo/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Sumit.Demo.MaxLabDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C11368A52B73A05B00516A45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Sumit.Demo.MaxLabDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MaxLabDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MaxLabDemo";
+			};
+			name = Debug;
+		};
+		C11368A62B73A05B00516A45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Sumit.Demo.MaxLabDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MaxLabDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MaxLabDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C11368532B7290DC00516A45 /* Build configuration list for PBXProject "MaxLabDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C11368642B7290E900516A45 /* Debug */,
+				C11368652B7290E900516A45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C11368662B7290E900516A45 /* Build configuration list for PBXNativeTarget "MaxLabDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C11368672B7290E900516A45 /* Debug */,
+				C11368682B7290E900516A45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C11368A42B73A05B00516A45 /* Build configuration list for PBXNativeTarget "MaxLabDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C11368A52B73A05B00516A45 /* Debug */,
+				C11368A62B73A05B00516A45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C11368502B7290DC00516A45 /* Project object */;
+}

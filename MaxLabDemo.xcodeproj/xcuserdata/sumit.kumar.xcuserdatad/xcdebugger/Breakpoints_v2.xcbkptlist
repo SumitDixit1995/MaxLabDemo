@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "5C9B52DC-02C6-4BF9-AAE0-37F456BC442D"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "30EA2EC3-39D5-4B5A-8052-E4A06A4C58C4"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MaxLabDemo/Utilities/AsyncImageView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "30EA2EC3-39D5-4B5A-8052-E4A06A4C58C4 - cedca5d73ab03094"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MaxLabDemo.AsyncImageView.body.getter : some"
+                  moduleName = "MaxLabDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sumit.kumar/Desktop/MaxLabDemo/MaxLabDemo/Utilities/AsyncImageView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "496">
+               </Location>
+               <Location
+                  uuid = "30EA2EC3-39D5-4B5A-8052-E4A06A4C58C4 - cedca5d73ab030b3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MaxLabDemo.AsyncImageView.body.getter : some"
+                  moduleName = "MaxLabDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sumit.kumar/Desktop/MaxLabDemo/MaxLabDemo/Utilities/AsyncImageView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "600">
+               </Location>
+               <Location
+                  uuid = "30EA2EC3-39D5-4B5A-8052-E4A06A4C58C4 - cedca5d73ab030b3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MaxLabDemo.AsyncImageView.body.getter : some"
+                  moduleName = "MaxLabDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sumit.kumar/Desktop/MaxLabDemo/MaxLabDemo/Utilities/AsyncImageView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "1712">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "88766B7D-6F23-4870-A028-65EA23B3A6F4"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MaxLabDemo/Utilities/AsyncImageView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

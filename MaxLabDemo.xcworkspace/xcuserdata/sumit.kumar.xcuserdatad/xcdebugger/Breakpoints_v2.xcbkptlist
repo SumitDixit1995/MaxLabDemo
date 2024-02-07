@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "08B77C47-1881-430C-B9A4-36DA2DFE9AD7"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "42F9D365-825C-43D7-B63C-D84FEA520D03"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MaxLabDemo/HealthTopics/ViewModel/HealthTopicsViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "fetchHealthTopicsDetail(id:_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "42F9D365-825C-43D7-B63C-D84FEA520D03 - 120c080b288861cc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;MaxLabDemo.HealthTopics, Swift.Error&gt;) -&gt; () in MaxLabDemo.HealthTopicsViewModel.fetchHealthTopicsDetail(id: Swift.String, _: (Swift.Bool) -&gt; ()) -&gt; ()"
+                  moduleName = "MaxLabDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sumit.kumar/Desktop/MaxLabDemo/MaxLabDemo/HealthTopics/ViewModel/HealthTopicsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "548">
+               </Location>
+               <Location
+                  uuid = "42F9D365-825C-43D7-B63C-D84FEA520D03 - 120c080b288861cc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;MaxLabDemo.HealthTopics, Swift.Error&gt;) -&gt; () in MaxLabDemo.HealthTopicsViewModel.fetchHealthTopicsDetail(id: Swift.String, _: (Swift.Bool) -&gt; ()) -&gt; ()"
+                  moduleName = "MaxLabDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sumit.kumar/Desktop/MaxLabDemo/MaxLabDemo/HealthTopics/ViewModel/HealthTopicsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "600">
+               </Location>
+               <Location
+                  uuid = "42F9D365-825C-43D7-B63C-D84FEA520D03 - 6a022eaa8d2fff78"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;MaxLabDemo.HealthTopics, Swift.Error&gt;) -&gt; () in MaxLabDemo.HealthTopicsViewModel.fetchHealthTopicsDetail(id: Swift.String, _: (Swift.Optional&lt;MaxLabDemo.HealthTopic&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "MaxLabDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sumit.kumar/Desktop/MaxLabDemo/MaxLabDemo/HealthTopics/ViewModel/HealthTopicsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "860">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8A6F2005-0A65-444F-85C9-95265D91D3B7"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MaxLabDemo/HealthTopics/Protocols/HealthTopicsApiProtocal.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
+            landmarkName = "fetchHealthTopicsDetail(_:for:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BE8569B7-FED9-4613-BCC7-CF94860F21D8"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MaxLabDemoTests/HealthTopicsViewTest.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "testfetchHealthTopics(completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
